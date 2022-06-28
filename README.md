@@ -85,7 +85,7 @@ running `npx prisma studio`
 You’ll have an amazing GUI for your DB at http://localhost:5500
 
 ```bash
-touch tsconfig.json && mkdir src && cd src && touch server.ts resolvers.ts typeDefs.ts
+touch tsconfig.json && mkdir src && cd src && touch server.ts resolvers.ts typeDefs.ts context.ts
 ```
 
 ```bash
