@@ -88,10 +88,6 @@ You’ll have an amazing GUI for your DB at http://localhost:5500
 touch tsconfig.json && mkdir src && cd src && touch server.ts resolvers.ts typeDefs.ts context.ts
 ```
 
-```bash
-yarn add apollo-server graphql && yarn add -D nodemon typescript ts-node @graphql-codegen/cli
-```
-
 add this to the tsconfig.json file
 
 ```
