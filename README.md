@@ -13,7 +13,7 @@ DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=pub
 update it to a mongodb connection
 
 ```.env
-mongodb+srv://Dunatron:xxxxxxxxx@freesharedcluster.xxxxxx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+DATABASE_URL="mongodb+srv://Dunatron:xxxxxxxxx@freesharedcluster.xxxxxx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 ```
 
 prisma init will also create a folder at the root called `prisma`
